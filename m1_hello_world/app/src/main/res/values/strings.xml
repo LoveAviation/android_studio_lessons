@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="passengers">0</string>
+    <string name="plus_char">+</string>
+    <string name="minus_char">-</string>
+    <string name="status">Осталось мест: </string>
+    <string name="default_status">Все места свободны</string>
+    <string name="expired_status">Пассажиров слишком много!</string>
+    <string name="reset">Сброс</string>
+
+</resources>
