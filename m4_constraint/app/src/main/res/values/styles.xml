@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="TextStyle" parent="TextAppearance.Material3.DisplayMedium">
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">18sp</item>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Other theme attributes -->
+    </style>
+
+    <!-- Other styles can be defined here -->
+    <style name="Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="SecondaryText" extends = "Title">
+        <item name="android:textColor">@color/grey</item>
+    </style>
+    <style name="CheckBoxStyle" parent = "Widget.Material3.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/turquoise</item>
     </style>
 </resources>

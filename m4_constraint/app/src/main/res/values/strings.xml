@@ -1,9 +1,15 @@
 <resources>
-    <string name="app_name">Constraint</string>
-    <string name="artist">Исполнитель</string>
-    <string name="title">Наименование композиции</string>
-    <string name="cover_desc">album cover</string>
-    <string name="play_desc">play song</string>
-    <string name="prev_desc">previous song</string>
-    <string name="next_desc">next song</string>
+    <string name="app_name">My Application</string>
+    <string name="contentDescription">Cat likes you</string>
+    <string name="Name">Имя</string>
+    <string name="Phone">Телефон</string>
+    <string name="Gender">Пол</string>
+    <string name="Male">М</string>
+    <string name="Female">Ж</string>
+    <string name="GetNotification">Получать уведомления</string>
+    <string name="AboutAuthorization">Об авторизации на устройстве</string>
+    <string name="AboutNews">О новинках и предложениях</string>
+    <string name="Points">Баллы</string>
+    <string name="CountPoints">/100</string>
+    <string name="Save">Сохранить</string>
 </resources>
