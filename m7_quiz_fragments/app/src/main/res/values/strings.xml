@@ -1,23 +1,16 @@
 <resources>
-    <string name="app_name">MusicQUIZ</string>
-
-    <string name="button_welcome_text">Начать</string>
-    <string name="button_quiz_text">Отправить</string>
-    <string name="button_result_text">Начать заново</string>
-
-    <string name="image_description">welcome image</string>
-    <string name="music_quiz">MUSIC QUIZ</string>
-    <string name="result_title">Ваш результат:</string>
-
-    <string name="question_1">Сколько участников в kpop группе BTS?</string>
-    <string name="answer_to_1_1">0</string>
-    <string name="answer_to_1_2">7</string>
-
-    <string name="question_2">Как называется лейбл звукозаписи chief keef-a?</string>
-    <string name="answer_to_2_1">GLO GANG</string>
-    <string name="answer_to_2_2">DRAIN GANG</string>
-
-    <string name="question_3">Настоящее имя исполнителя Blood Orange?</string>
-    <string name="answer_to_3_1">Devonté Hynes</string>
-    <string name="answer_to_3_2">Rakim Athelaston Mayers</string>
+    <string name="app_name">Quiz App</string>
+    <string name="Start">Начать</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quizlayoutText">QuizLayout</string>
+    <string name="first_question">1) Android круче чем iOS?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="second_question">2) Коты лучше всех?</string>
+    <string name="third_question">3) 2 + 2 * 2 = 6 ?</string>
+    <string name="send">Отправить</string>
+    <string name="back">Назад</string>
+    <string name="results_text">Ваш результат:</string>
+    <string name="restart">Начать заново</string>
 </resources>
