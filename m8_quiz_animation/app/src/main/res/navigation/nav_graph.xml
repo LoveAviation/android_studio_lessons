@@ -7,54 +7,47 @@
 
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="com.example.quiz.WelcomeFragment"
+        android:name="com.example.myapplication.WelcomeFragment"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_welcome" >
         <action
             android:id="@+id/action_welcomeFragment_to_quizFragment"
             app:destination="@id/quizFragment"
-            app:enterAnim="@anim/from_right_anim"
-            app:exitAnim="@anim/to_left_anim"
-            app:popEnterAnim="@anim/from_left_anim"
-            app:popExitAnim="@anim/to_right_anim" />
+            app:enterAnim="@anim/new_slide_in"
+            app:exitAnim="@anim/new_slide_out"
+            app:popEnterAnim="@anim/new_slide_in"
+            app:popExitAnim="@anim/new_slide_out" />
     </fragment>
     <fragment
         android:id="@+id/quizFragment"
-        android:name="com.example.quiz.QuizFragment"
+        android:name="com.example.myapplication.QuizFragment"
         android:label="fragment_quiz"
-        tools:layout="@layout/fragment_quiz" >
+        tools:layout="@layout/fragment_quiz">
         <action
-            android:id="@+id/action_quizFragment_to_resultFragment"
-            app:destination="@id/resultFragment"
-            app:popUpTo="@id/welcomeFragment"
-            app:enterAnim="@anim/from_right_anim"
-            app:exitAnim="@anim/to_left_anim"
-            app:popEnterAnim="@anim/from_left_anim"
-            app:popExitAnim="@anim/to_right_anim"/>
+            android:id="@+id/action_quizFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+        <action
+            android:id="@+id/action_quizFragment_to_resultsFragment"
+            app:destination="@id/resultsFragment"
+            app:enterAnim="@anim/new_slide_in"
+            app:exitAnim="@anim/new_slide_out"
+            app:popEnterAnim="@anim/new_slide_in"
+            app:popExitAnim="@anim/new_slide_out"/>
     </fragment>
     <fragment
-        android:id="@+id/resultFragment"
-        android:name="com.example.quiz.ResultFragment"
-        android:label="fragment_result"
-        tools:layout="@layout/fragment_result" >
+        android:id="@+id/resultsFragment"
+        android:name="com.example.myapplication.ResultsFragment"
+        android:label="fragment_results"
+        tools:layout="@layout/fragment_results" >
         <action
-            android:id="@+id/action_resultFragment_to_welcomeFragment"
-            app:destination="@id/welcomeFragment"
-            app:popUpTo="@id/welcomeFragment"
-            app:enterAnim="@anim/from_right_anim"
-            app:exitAnim="@anim/to_left_anim"
-            app:popEnterAnim="@anim/from_left_anim"
-            app:popExitAnim="@anim/to_right_anim"/>
-        <argument
-            android:name="number"
-            app:argType="integer" />
-        <action
-            android:id="@+id/action_resultFragment_to_quizFragment"
+            android:id="@+id/action_resultsFragment_to_quizFragment"
             app:destination="@id/quizFragment"
-            app:popUpTo="@id/welcomeFragment"
-            app:enterAnim="@anim/from_right_anim"
-            app:exitAnim="@anim/to_left_anim"
-            app:popEnterAnim="@anim/from_left_anim"
-            app:popExitAnim="@anim/to_right_anim"/>
+            app:enterAnim="@anim/new_slide_in"
+            app:exitAnim="@anim/new_slide_out"
+            app:popEnterAnim="@anim/new_slide_in"
+            app:popExitAnim="@anim/new_slide_out"/>
+        <action
+            android:id="@+id/action_resultsFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
     </fragment>
 </navigation>
