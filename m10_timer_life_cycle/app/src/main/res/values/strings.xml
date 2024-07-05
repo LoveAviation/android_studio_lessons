@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Components</string>
-    <string name="header">Countdown Timer</string>
-    <string name="button_text_start">start</string>
-    <string name="button_text_stop">stop</string>
-    <string name="timer">10</string>
+    <string name="app_name">My Application</string>
+    <string name="timerText">10</string>
+    <string name="topText">Countdown Timer</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
 </resources>
